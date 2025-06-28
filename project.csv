@@ -1,0 +1,209 @@
+goal,type,question,options,answer,difficulty,topic
+Amazon SDE,mcq,What is the time complexity of binary search?,O(n)|O(log n)|O(n log n)|O(1),O(log n),intermediate,Algorithms
+Amazon SDE,mcq,Which data structure uses FIFO order?,Stack|Queue|Tree|Graph,Queue,beginner,Data Structures
+Amazon SDE,mcq,What does ACID stand for in databases?,"Atomicity, Consistency, Isolation, Durability|Availability, Consistency, Integrity, Durability|Atomicity, Concurrency, Isolation, Durability|Aggregation, Consistency, Isolation, Durability","Atomicity, Consistency, Isolation, Durability",intermediate,Database Systems
+Amazon SDE,short_answer,What design pattern creates objects without specifying exact class?,,Factory Method Pattern,advanced,Design Patterns
+Amazon SDE,mcq,Which protocol is used for secure HTTP transmission?,FTP|HTTPS|SMTP|TCP,HTTPS,beginner,Web Technologies
+Amazon SDE,mcq,What OOP principle allows treating objects as common supertype?,Encapsulation|Abstraction|Polymorphism|Inheritance,Polymorphism,intermediate,Object-Oriented Programming
+Amazon SDE,short_answer,What is QuickSort's worst-case time complexity?,,O(n²),advanced,Algorithms
+Amazon SDE,mcq,Which is NOT a NoSQL database?,MongoDB|Cassandra|PostgreSQL|Redis,PostgreSQL,intermediate,Database Systems
+Amazon SDE,mcq,What is the main advantage of microservices?,Simpler debugging|Tight coupling|Independent deployment/scalability|Reduced network latency,Independent deployment/scalability,advanced,System Design
+Amazon SDE,short_answer,HTTP status code for successful POST request?,,201 Created,beginner,Web Technologies
+Amazon SDE,mcq,Which algorithm finds shortest path in weighted graph?,BFS|DFS|Dijkstra|Binary Search,Dijkstra,intermediate,Algorithms
+Amazon SDE,mcq,What is the CAP theorem?,"Consistency, Availability, Partition tolerance|Concurrency, Atomicity, Persistence|Consistency, Atomicity, Partition tolerance|Concurrency, Availability, Persistence","Consistency, Availability, Partition tolerance",advanced,System Design
+Amazon SDE,short_answer,What does SQL stand for?,,Structured Query Language,beginner,Database Systems
+Amazon SDE,mcq,Which sorting algorithm has best worst-case time?,QuickSort|BubbleSort|MergeSort|SelectionSort,MergeSort,intermediate,Algorithms
+Amazon SDE,short_answer,What is deadlock?,,When processes wait for resources held by each other,intermediate,Operating Systems
+Amazon SDE,mcq,Which is NOT a JavaScript framework?,React|Angular|Django|Vue.js,Django,beginner,Web Technologies
+Amazon SDE,mcq,What is the main purpose of an index in databases?,To store backups|To improve query performance|To enforce data types|To manage transactions,To improve query performance,intermediate,Database Systems
+Amazon SDE,short_answer,What principle states entities should be open for extension but closed for modification?,,Open/Closed Principle,advanced,Software Design
+Amazon SDE,mcq,Which data structure uses LIFO order?,Queue|Stack|Heap|Tree,Stack,beginner,Data Structures
+Amazon SDE,mcq,What does API stand for?,Application Programming Interface|Automated Program Integration|Application Process Integration|Automated Programming Interface,Application Programming Interface,beginner,Web Technologies
+Amazon SDE,short_answer,What is memoization in dynamic programming?,,Storing results of expensive function calls,intermediate,Dynamic Programming
+Amazon SDE,mcq,Which algorithm is most efficient for maximum subarray sum?,Brute Force (O(n²))|Kadane's Algorithm (O(n))|Divide and Conquer (O(n log n))|Dynamic Programming (O(n²)),Kadane's Algorithm (O(n)),intermediate,Arrays
+Amazon SDE,short_answer,Write a function to reverse a linked list in-place.,,def reverse_list(head):\n    prev = None\n    current = head\n    while current:\n        next_node = current.next\n        current.next = prev\n        prev = current\n        current = next_node\n    return prev,intermediate,Linked Lists
+Amazon SDE,mcq,What is time complexity of Dijkstra's with binary heap?,O(V²)|O(V + E)|O((V + E) log V)|O(V log V + E),O((V + E) log V),advanced,Graphs
+Amazon SDE,mcq,Best data structure for LRU Cache?,Array|Singly Linked List|Doubly Linked List + Hashmap|Binary Search Tree,Doubly Linked List + Hashmap,intermediate,Design
+Amazon SDE,short_answer,How to detect cycle in linked list?,,Floyd's Cycle-Finding Algorithm (tortoise and hare),intermediate,Linked Lists
+Amazon SDE,mcq,Advantage of Red-Black Tree over AVL?,Faster lookups|Fewer rotations during insertion/deletion|Stricter balancing|Simpler implementation,Fewer rotations during insertion/deletion,advanced,Trees
+Amazon SDE,mcq,Best sorting for small datasets?,Merge Sort|Quick Sort|Insertion Sort|Heap Sort,Insertion Sort,beginner,Algorithms
+Amazon SDE,short_answer,Implement stack using queues.,,"Use two queues:\n1. Push: Add to q2, move all from q1 to q2, swap q1 and q2\n2. Pop: Remove from q1",intermediate,Stacks
+Amazon SDE,mcq,What does CAP theorem state?,"Achieve all three: C,A,P|Only achieve two of C,A,P|Prioritize C over A|P tolerance optional","Only achieve two of C,A,P",advanced,System Design
+Amazon SDE,mcq,Which is NOT a valid ACID property?,Atomicity|Consistency|Isolation|Durability|Availability,Availability,intermediate,Database Systems
+Amazon SDE,short_answer,Difference between process and thread?,,"Process: Independent with separate memory\nThread: Lightweight, shares memory",intermediate,Operating Systems
+Amazon SDE,mcq,Time complexity of hash table search?,"O(1)|O(n)|O(log n)|O(1) avg, O(n) worst","O(1) avg, O(n) worst",intermediate,Hashing
+Amazon SDE,short_answer,SQL query for second highest salary?,,SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees),intermediate,Database Systems
+Amazon SDE,mcq,Which data structure for BFS?,Stack|Queue|Heap|Priority Queue,Queue,beginner,Graphs
+Amazon SDE,short_answer,What is memoization?,,Storing results of expensive function calls,intermediate,Dynamic Programming
+Amazon SDE,mcq,Bubble sort worst-case time?,O(n)|O(n log n)|O(n²)|O(log n),O(n²),beginner,Algorithms
+Amazon SDE,short_answer,Explain Factory design pattern.,,Creational pattern providing interface for creating objects,advanced,Design Patterns
+Amazon SDE,mcq,What is REST?,Remote Execution System Template|Representational State Transfer|Responsive Event-driven System Technology|Resource Execution State Transfer,Representational State Transfer,intermediate,Web Technologies
+Amazon SDE,short_answer,What is normalization in databases?,,Process of organizing data to reduce redundancy,intermediate,Database Systems
+Amazon SDE,mcq,Which is NOT a HTTP method?,GET|POST|FETCH|PUT,FETCH,beginner,Web Technologies
+Amazon SDE,short_answer,What is Big O notation?,,Mathematical notation describing algorithm efficiency,beginner,Algorithms
+Amazon SDE,mcq,Which language is statically typed?,Python|JavaScript|Java|Ruby,Java,beginner,Programming
+Amazon SDE,short_answer,What is recursion?,,Function calling itself directly/indirectly,beginner,Algorithms
+Amazon SDE,mcq,What is DNS?,Data Naming System|Domain Name System|Digital Network Service|Distributed Node System,Domain Name System,beginner,Networking
+Amazon SDE,short_answer,What is a constructor?,,Special method to initialize objects,beginner,OOP
+Amazon SDE,mcq,Which is NOT a primitive data type?,int|float|string|array,array,beginner,Programming
+Amazon SDE,short_answer,What is garbage collection?,,Automatic memory management,intermediate,Programming
+Amazon SDE,mcq,What is TCP?,Transmission Control Protocol|Total Connection Protocol|Transport Control Process|Transient Connection Pathway,Transmission Control Protocol,beginner,Networking
+Amazon SDE,short_answer,What is polymorphism?,,Ability of objects to take different forms,intermediate,OOP
+Amazon SDE,mcq,Which is NOT a cloud service model?,IaaS|PaaS|SaaS|BaaS,BaaS,intermediate,Cloud Computing
+Amazon SDE,short_answer,What is version control?,,System for tracking code changes,beginner,DevOps
+Amazon SDE,mcq,What is HTML?,HyperText Markup Language|High-Level Machine Language|Hyper Transfer Markup Logic|Host Text Management Layer,HyperText Markup Language,beginner,Web Technologies
+Amazon SDE,short_answer,What is an interface?,,Contract defining methods a class must implement,intermediate,OOP
+Amazon SDE,mcq,Which is NOT a NoSQL DB type?,Document|Graph|Relational|Key-Value,Relational,intermediate,Database Systems
+Amazon SDE,short_answer,What is DevOps?,,Combination of development and operations,beginner,DevOps
+Amazon SDE,mcq,What is CSS?,Computer Style Sheets|Cascading Style Sheets|Content Styling System|Centralized Style Service,Cascading Style Sheets,beginner,Web Technologies
+Amazon SDE,short_answer,What is Agile methodology?,,Iterative approach to project management,intermediate,Methodologies
+Amazon SDE,mcq,Which is NOT a sorting algorithm?,QuickSort|MergeSort|JumpSort|BubbleSort,JumpSort,beginner,Algorithms
+Amazon SDE,short_answer,What is a binary tree?,,Tree with max two children per node,beginner,Data Structures
+Amazon SDE,mcq,What is JSON?,JavaScript Object Notation|Java Standard Object Naming|JavaScript Oriented Network|Java System Object Node,JavaScript Object Notation,beginner,Data Formats
+Amazon SDE,short_answer,What is MVC?,,Model-View-Controller architecture pattern,intermediate,Design Patterns
+Amazon SDE,mcq,Which is NOT a Python framework?,Django|Flask|Spring|Pyramid,Spring,intermediate,Web Technologies
+Amazon SDE,short_answer,What is load balancing?,,Distributing network traffic across servers,intermediate,System Design
+Amazon SDE,mcq,What is XML?,eXtensible Markup Language|Executable Machine Language|Extended Memory Layer|External Module Library,eXtensible Markup Language,beginner,Data Formats
+Amazon SDE,short_answer,What is caching?,,Storing data for faster future access,intermediate,System Design
+Amazon SDE,mcq,Which is NOT a JavaScript data type?,string|number|character|boolean,character,beginner,Programming
+Amazon SDE,short_answer,What is OAuth?,,Authorization framework for API access,advanced,Web Technologies
+Amazon SDE,mcq,What is SSH?,Secure Shell|System Service Host|Standard Security Hub|Server Security Handler,Secure Shell,beginner,Networking
+Amazon SDE,short_answer,What is CI/CD?,,Continuous Integration/Continuous Deployment,intermediate,DevOps
+Amazon SDE,mcq,Which is NOT a valid HTTP status code?,200|404|503|799,799,intermediate,Web Technologies
+Amazon SDE,short_answer,What is Docker?,,Containerization platform,beginner,DevOps
+Amazon SDE,mcq,What is a cookie in web?,Small text file stored by browser|Type of database|Security token|Authentication protocol,Small text file stored by browser,beginner,Web Technologies
+Amazon SDE,short_answer,What is machine learning?,,AI technique enabling systems to learn from data,intermediate,AI Concepts
+Amazon SDE,mcq,What is a primary key?,Unique identifier for database records|Foreign key reference|Index for sorting|Encryption key,Unique identifier for database records,intermediate,Database Systems
+Amazon SDE,short_answer,What is the difference between == and === in JavaScript?,,"== compares values, === compares values and types",intermediate,Programming
+Amazon SDE,mcq,Which data structure uses hash functions?,Array|Hash Table|Linked List|Stack,Hash Table,beginner,Data Structures
+Amazon SDE,short_answer,What is a virtual machine?,,Software emulation of physical computer,intermediate,System Design
+Amazon SDE,mcq,What is the main purpose of Kubernetes?,Version control|Container orchestration|Database management|Code compilation,Container orchestration,intermediate,DevOps
+GATE ECE,mcq,Nyquist rate for 4 kHz signal?,4 kHz|2 kHz|8 kHz|6 kHz,8 kHz,intermediate,Signals and Systems
+GATE ECE,mcq,Most bandwidth-efficient modulation?,ASK|FSK|PSK|QAM,QAM,advanced,Communication Systems
+GATE ECE,short_answer,Resolution of 10-bit ADC with 5V reference?,,4.88 mV,intermediate,Digital Electronics
+GATE ECE,mcq,Indian navigation satellite system?,GSAT|INSAT|IRNSS|CARTOSAT,IRNSS,beginner,Satellite Communication
+GATE ECE,mcq,What does VLSI stand for?,Very Large System Integration|Very Large Scale Integration|Variable Logic System Integration|Voltage Level System Interface,Very Large Scale Integration,beginner,Electronics
+GATE ECE,short_answer,"Output of non-inverting op-amp: R1=10kΩ, R2=10kΩ, Vin=2V?",,4V,intermediate,Analog Circuits
+GATE ECE,mcq,Theorem for networks with multiple sources?,Thevenin's|Norton's|Superposition|Max Power Transfer,Superposition,intermediate,Network Theory
+GATE ECE,mcq,Full form of OFDM?,Orthogonal Frequency Division Multiplexing|Optical Frequency Division Modulation|Orthogonal Function Division Method|Optimized Frequency Division Multiplexing,Orthogonal Frequency Division Multiplexing,advanced,Wireless Communication
+GATE ECE,short_answer,RFID operating frequency ranges?,,"120-150 kHz, 13.56 MHz, 860-960 MHz, 2.45 GHz",advanced,RF Engineering
+GATE ECE,mcq,Modulation technique in Bluetooth?,GFSK|QPSK|OFDM|BPSK,GFSK,intermediate,Wireless Communication
+GATE ECE,mcq,Which is digital modulation?,PAM|PWM|PPM|PCM,PCM,intermediate,Communication Systems
+GATE ECE,short_answer,Barkhausen criterion for oscillation?,,"Loop gain = 1, phase shift = 0°",advanced,Analog Circuits
+GATE ECE,mcq,Device that converts light to electrical?,LED|Photodiode|Solar Cell|Laser Diode,Photodiode,beginner,Optoelectronics
+GATE ECE,mcq,Full form of DSP?,Digital Signal Processor|Data Stream Protocol|Digital System Programming|Data Signal Processing,Digital Signal Processor,beginner,Signal Processing
+GATE ECE,short_answer,Cut-in voltage for silicon diode?,,0.7V,beginner,Electronics
+GATE ECE,mcq,Modulation in Wi-Fi 802.11a/g?,OFDM|DSSS|FHSS|QPSK,OFDM,intermediate,Wireless Communication
+GATE ECE,mcq,What does CMOS stand for?,Complementary Metal Oxide Semiconductor|Current Mode Output System|Capacitive Memory Operating System|Complementary Memory Output Semiconductor,Complementary Metal Oxide Semiconductor,beginner,Electronics
+GATE ECE,short_answer,Shannon theorem relates what?,,Bandwidth and transmission rate,advanced,Communication Systems
+GATE ECE,mcq,Which is NOT a flip-flop type?,SR|JK|T|Z,Z,beginner,Digital Electronics
+GATE ECE,mcq,Full form of SNR?,Signal to Noise Ratio|System Network Reliability|Serial Number Register|Synchronous Network Router,Signal to Noise Ratio,beginner,Communication Systems
+GATE ECE,short_answer,What is Hartley oscillator used for?,,RF signal generation,intermediate,Analog Circuits
+GATE ECE,mcq,Which modulation has constant envelope?,ASK|FSK|PSK|QAM,FSK,intermediate,Communication Systems
+GATE ECE,mcq,What is the full form of PLL?,Phase Locked Loop|Power Level Limiter|Pulse Length Limiter|Programmable Logic Latch,Phase Locked Loop,beginner,Electronics
+GATE ECE,short_answer,Advantage of digital over analog communication?,,Noise immunity,intermediate,Communication Systems
+GATE ECE,mcq,Which is a vector quantity?,Charge|Current|Voltage|Electric Field,Electric Field,beginner,Electromagnetics
+GATE ECE,mcq,What does MUX stand for?,Multiplexer|Multi-User Expansion|Multiplier Unit Extension|Multivariable UX,Multiplexer,beginner,Digital Electronics
+GATE ECE,short_answer,Why silicon preferred over germanium?,,"Higher temperature tolerance, lower leakage",intermediate,Electronics
+GATE ECE,mcq,Which theorem relates input/output spectra?,Nyquist|Shannon|Parseval|Fourier,Fourier,intermediate,Signals and Systems
+GATE ECE,mcq,Full form of FIR filter?,Finite Impulse Response|Fast Integrated Receiver|Frequency Interference Rejection|Feedback Input Resistance,Finite Impulse Response,intermediate,Signal Processing
+GATE ECE,short_answer,What is skin effect?,,AC current concentrated near conductor surface,intermediate,RF Engineering
+GATE ECE,mcq,What is full form of ADC?,Analog to Digital Converter|Advanced Digital Circuit|Audio Data Converter|Analog Device Controller,Analog to Digital Converter,beginner,Digital Electronics
+GATE ECE,short_answer,What is Nyquist-Shannon sampling theorem?,,Sampling rate must be > 2x highest frequency,intermediate,Signals and Systems
+GATE ECE,mcq,Which is NOT a modulation index?,Amplitude|Frequency|Phase|Voltage,Voltage,beginner,Communication Systems
+GATE ECE,short_answer,What is quantization error?,,Difference between actual and quantized value,intermediate,Digital Electronics
+GATE ECE,mcq,What does RAM stand for?,Random Access Memory|Readily Available Memory|Random Addressable Memory|Rapid Access Module,Random Access Memory,beginner,Digital Electronics
+GATE ECE,short_answer,What is Zener diode used for?,,Voltage regulation,intermediate,Electronics
+GATE ECE,mcq,Which is NOT an antenna type?,Dipole|Loop|Yagi-Uda|Zener,Zener,beginner,Antennas
+GATE ECE,short_answer,What is modulation?,,Process of varying carrier signal properties,beginner,Communication Systems
+GATE ECE,mcq,What is full form of IC?,Integrated Circuit|Internal Connection|Input Channel|Inductive Coupling,Integrated Circuit,beginner,Electronics
+GATE ECE,short_answer,What is Doppler effect?,,Frequency change due to relative motion,intermediate,Communication Systems
+GATE ECE,mcq,Which is NOT a logic gate?,AND|OR|XOR|AMP,AMP,beginner,Digital Electronics
+GATE ECE,short_answer,What is feedback in control systems?,,Output signal fed back to input,intermediate,Control Systems
+GATE ECE,mcq,What is full form of LED?,Light Emitting Diode|Low Energy Device|Luminous Emitting Device|Light Enhancement Diode,Light Emitting Diode,beginner,Optoelectronics
+GATE ECE,short_answer,What is AM demodulation?,,Extracting original signal from modulated carrier,intermediate,Communication Systems
+GATE ECE,mcq,Which is NOT a filter type?,Low-pass|High-pass|Band-pass|Signal-pass,Signal-pass,beginner,Signal Processing
+GATE ECE,short_answer,What is impedance?,,Total opposition to AC current,beginner,Network Theory
+GATE ECE,mcq,What is full form of FM?,Frequency Modulation|Field Magnitude|Frequency Magnification|Field Modulation,Frequency Modulation,beginner,Communication Systems
+GATE ECE,short_answer,What is Barkhausen criterion?,,Conditions for oscillation,intermediate,Analog Circuits
+GATE ECE,mcq,Which is NOT a transmission line?,Coaxial|Twisted Pair|Optical Fiber|Capacitor,Capacitor,beginner,Electromagnetics
+GATE ECE,short_answer,What is group delay?,,Time delay of amplitude envelopes,advanced,Signals and Systems
+GATE ECE,mcq,What is full form of PCB?,Printed Circuit Board|Power Control Board|Process Control Block|Programmable Circuit Board,Printed Circuit Board,beginner,Electronics
+GATE ECE,short_answer,What is aliasing?,,Signal distortion from insufficient sampling,intermediate,Signals and Systems
+GATE ECE,mcq,Which is NOT a satellite orbit?,GEO|LEO|MEO|SEO,SEO,beginner,Satellite Communication
+GATE ECE,short_answer,What is noise figure?,,Measure of degradation in SNR,advanced,Communication Systems
+GATE ECE,mcq,What is full form of RADAR?,Radio Detection and Ranging|Radiation Detection and Ranging|Radio Angular Detection|Radar Angular Detection,Radio Detection and Ranging,beginner,RF Engineering
+GATE ECE,short_answer,What is sampling theorem?,,Minimum sampling rate for signal reconstruction,intermediate,Signals and Systems
+GATE ECE,mcq,Which is NOT an amplifier class?,A|B|C|Z,Z,beginner,Analog Circuits
+GATE ECE,short_answer,What is Poynting vector?,,Direction of EM wave propagation,advanced,Electromagnetics
+GATE ECE,mcq,What is the unit of frequency?,Hertz|Ohm|Farad|Tesla,Hertz,beginner,Signals and Systems
+GATE ECE,short_answer,What is a transistor?,,Semiconductor device for amplification/switching,beginner,Electronics
+GATE ECE,mcq,Which is NOT a wireless standard?,Bluetooth|Wi-Fi|Ethernet|Zigbee,Ethernet,beginner,Wireless Communication
+GATE ECE,short_answer,What is an integrated circuit?,,Miniaturized electronic circuit,beginner,Electronics
+GATE ECE,mcq,What is the speed of light?,3e8 m/s|3e5 m/s|3e3 m/s|3e10 m/s,3e8 m/s,beginner,Electromagnetics
+GATE ECE,short_answer,What is modulation index?,,Ratio of modulation amplitude to carrier amplitude,intermediate,Communication Systems
+GATE ECE,mcq,Which is NOT a number system?,Binary|Decimal|Hexadecimal|Vector,Vector,beginner,Digital Electronics
+GATE ECE,short_answer,What is a microcontroller?,,Small computer on single IC,intermediate,Electronics
+CAT Verbal,mcq,Synonym of 'Sagacious'?,Foolish|Wise|Arrogant|Wealthy,Wise,beginner,Vocabulary
+CAT Verbal,short_answer,Correct: 'Neither manager nor assistant were present',,were → was,intermediate,Grammar
+CAT Verbal,mcq,Meaning of 'Burn the midnight oil'?,Destroy evidence|Work late into night|Waste resources|Create trouble,Work late into night,beginner,Idioms
+CAT Verbal,mcq,Antonym of 'Ephemeral'?,Transient|Permanent|Fleeting|Momentary,Permanent,intermediate,Vocabulary
+CAT Verbal,short_answer,Literary device: 'The wind whispered'?,,Personification,intermediate,Literary Devices
+CAT Verbal,mcq,Correctly spelled?,Accomodate|Acommodate|Accommodate|Acomodate,Accommodate,beginner,Spelling
+CAT Verbal,mcq,Which is a complex sentence?,"She studied hard.|Although it rained, they played.|The cat sat.|Run!","Although it rained, they played.",intermediate,Grammar
+CAT Verbal,short_answer,Analogy type: Doctor:Hospital::Teacher:School?,,Worker and Workplace,advanced,Verbal Reasoning
+CAT Verbal,mcq,Figure of speech: 'He is as brave as a lion'?,Metaphor|Simile|Hyperbole|Irony,Simile,beginner,Literary Devices
+CAT Verbal,mcq,Meaning of 'Bona fide'?,False|Genuine|Excellent|Ordinary,Genuine,intermediate,Vocabulary
+CAT Verbal,short_answer,Correct: 'Each of the boys have books',,have → has,intermediate,Grammar
+CAT Verbal,mcq,Which NOT a conditional sentence type?,Zero|First|Second|Inverse,Inverse,advanced,Grammar
+CAT Verbal,mcq,Meaning of 'Sui generis'?,Common|Unique|Similar|Ordinary,Unique,advanced,Vocabulary
+CAT Verbal,mcq,Punctuation for direct speech?,Comma|Semicolon|Quotation marks|Colon,Quotation marks,beginner,Punctuation
+CAT Verbal,short_answer,Error: 'I seen that movie'?,,Incorrect verb form (seen → saw),beginner,Grammar
+CAT Verbal,mcq,What is an oxymoron?,Exaggeration|Contradictory terms|Comparison|Addressing absent,Contradictory terms,intermediate,Literary Devices
+CAT Verbal,mcq,Plural of 'criterion'?,Criterions|Criteria|Criterias|Criterion,Criteria,beginner,Grammar
+CAT Verbal,short_answer,What is a dangling modifier?,,Modifier with unclear subject,intermediate,Grammar
+CAT Verbal,mcq,Synonym of 'Ubiquitous'?,Rare|Everywhere|Partial|Hidden,Everywhere,intermediate,Vocabulary
+CAT Verbal,mcq,Which is a run-on sentence?,I went; he stayed.|I went he stayed.|Although I went.|Quickly!,I went he stayed.,intermediate,Grammar
+CAT Verbal,short_answer,Meaning of 'De facto'?,,In practice (though not official),advanced,Vocabulary
+CAT Verbal,mcq,Antonym of 'Benevolent'?,Kind|Malevolent|Generous|Helpful,Malevolent,intermediate,Vocabulary
+CAT Verbal,mcq,What is metonymy?,Part represents whole|Exaggeration|Contradiction|Sound imitation,Part represents whole,intermediate,Literary Devices
+CAT Verbal,short_answer,Correct: 'Me and him went to town',,Me and him → He and I,beginner,Grammar
+CAT Verbal,mcq,Meaning of 'Fait accompli'?,Unfinished task|Accomplished fact|False information|Temporary solution,Accomplished fact,advanced,Vocabulary
+CAT Verbal,mcq,Which is a compound sentence?,"She ran.|He slept.|She ran, and he slept.|Running fast.","She ran, and he slept.",beginner,Grammar
+CAT Verbal,short_answer,What is zeugma?,,One word modifying two others differently,advanced,Literary Devices
+CAT Verbal,mcq,Synonym of 'Meticulous'?,Careless|Careful|Rude|Generous,Careful,intermediate,Vocabulary
+CAT Verbal,short_answer,Correct: 'The team are winning',,are → is,beginner,Grammar
+CAT Verbal,mcq,Which is NOT a figure of speech?,Simile|Metaphor|Equation|Hyperbole,Equation,beginner,Literary Devices
+CAT Verbal,short_answer,Meaning of 'Status quo'?,,Existing state of affairs,intermediate,Vocabulary
+CAT Verbal,mcq,Antonym of 'Candid'?,Frank|Dishonest|Open|Truthful,Dishonest,intermediate,Vocabulary
+CAT Verbal,short_answer,What is alliteration?,,Repetition of initial consonant sounds,beginner,Literary Devices
+CAT Verbal,mcq,Which is a preposition?,Run|Quickly|Under|Beautiful,Under,beginner,Grammar
+CAT Verbal,short_answer,Meaning of 'Ad hoc'?,,For specific purpose,intermediate,Vocabulary
+CAT Verbal,mcq,Synonym of 'Pragmatic'?,Idealistic|Practical|Theoretical|Dreamy,Practical,intermediate,Vocabulary
+CAT Verbal,short_answer,Correct: 'Its a beautiful day',,Its → It's,beginner,Grammar
+CAT Verbal,mcq,Which is NOT a verb tense?,Past|Present|Future|Spatial,Spatial,beginner,Grammar
+CAT Verbal,short_answer,What is irony?,,Contrast between expectation and reality,intermediate,Literary Devices
+CAT Verbal,mcq,Meaning of 'Per se'?,By itself|Through others|Against all|Above all,By itself,intermediate,Vocabulary
+CAT Verbal,short_answer,Correct: 'Between you and I',,I → me,intermediate,Grammar
+CAT Verbal,mcq,Antonym of 'Lethargic'?,Tired|Energetic|Sleepy|Lazy,Energetic,intermediate,Vocabulary
+CAT Verbal,short_answer,What is assonance?,,Repetition of vowel sounds,intermediate,Literary Devices
+CAT Verbal,mcq,Which is a conjunction?,Run|And|Beautiful|Quickly,And,beginner,Grammar
+CAT Verbal,short_answer,Meaning of 'Caveat emptor'?,,Buyer beware,advanced,Vocabulary
+CAT Verbal,mcq,Synonym of 'Eloquent'?,Inarticulate|Fluent|Mute|Silent,Fluent,intermediate,Vocabulary
+CAT Verbal,short_answer,Correct: 'She done her homework',,done → did,beginner,Grammar
+CAT Verbal,mcq,Which is NOT a pronoun?,He|She|It|Jump,Jump,beginner,Grammar
+CAT Verbal,short_answer,What is onomatopoeia?,,Words imitating sounds,beginner,Literary Devices
+CAT Verbal,mcq,Meaning of 'Quid pro quo'?,Something for nothing|Something for something|Against something|Above something,Something for something,advanced,Vocabulary
+CAT Verbal,short_answer,Correct: 'The data is' or 'The data are'?,,Both acceptable (singular/plural),advanced,Grammar
+CAT Verbal,mcq,Antonym of 'Amiable'?,Friendly|Hostile|Kind|Pleasant,Hostile,intermediate,Vocabulary
+CAT Verbal,short_answer,What is a malapropism?,,Incorrect word substitution with similar sound,intermediate,Literary Devices
+CAT Verbal,mcq,Which is an adverb?,Run|Beautiful|Quickly|Car,Quickly,beginner,Grammar
+CAT Verbal,short_answer,Meaning of 'Prima facie'?,,At first sight,advanced,Vocabulary
+CAT Verbal,mcq,Synonym of 'Verbose'?,Concise|Wordy|Brief|Succinct,Wordy,intermediate,Vocabulary
+CAT Verbal,short_answer,Correct: 'Whom should I ask?',,Correct as is,intermediate,Grammar
+CAT Verbal,mcq,Which is NOT a type of irony?,Verbal|Situational|Dramatic|Literal,Literal,intermediate,Literary Devices
+CAT Verbal,short_answer,Meaning of 'Ipso facto'?,,By the fact itself,advanced,Vocabulary
+CAT Verbal,mcq,Antonym of 'Profound'?,Deep|Shallow|Serious|Intense,Shallow,intermediate,Vocabulary
+CAT Verbal,short_answer,What is a synecdoche?,,Part representing whole,intermediate,Literary Devices
+CAT Verbal,mcq,Which is a proper noun?,city|London|book|run,London,beginner,Grammar
+CAT Verbal,short_answer,Meaning of 'Ad infinitum'?,,To infinity,advanced,Vocabulary

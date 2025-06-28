@@ -1,0 +1,2470 @@
+[
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is the time complexity of binary search?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "answer": "O(log n)",
+    "difficulty": "intermediate",
+    "topic": "Algorithms"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which data structure uses FIFO order?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Tree",
+      "Graph"
+    ],
+    "answer": "Queue",
+    "difficulty": "beginner",
+    "topic": "Data Structures"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What does ACID stand for in databases?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Availability, Consistency, Integrity, Durability",
+      "Atomicity, Concurrency, Isolation, Durability",
+      "Aggregation, Consistency, Isolation, Durability"
+    ],
+    "answer": "Atomicity, Consistency, Isolation, Durability",
+    "difficulty": "intermediate",
+    "topic": "Database Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What design pattern creates objects without specifying exact class?",
+    "options": [],
+    "answer": "Factory Method Pattern",
+    "difficulty": "advanced",
+    "topic": "Design Patterns"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which protocol is used for secure HTTP transmission?",
+    "options": [
+      "FTP",
+      "HTTPS",
+      "SMTP",
+      "TCP"
+    ],
+    "answer": "HTTPS",
+    "difficulty": "beginner",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What OOP principle allows treating objects as common supertype?",
+    "options": [
+      "Encapsulation",
+      "Abstraction",
+      "Polymorphism",
+      "Inheritance"
+    ],
+    "answer": "Polymorphism",
+    "difficulty": "intermediate",
+    "topic": "Object-Oriented Programming"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is QuickSort's worst-case time complexity?",
+    "options": [],
+    "answer": "O(n²)",
+    "difficulty": "advanced",
+    "topic": "Algorithms"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a NoSQL database?",
+    "options": [
+      "MongoDB",
+      "Cassandra",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "answer": "PostgreSQL",
+    "difficulty": "intermediate",
+    "topic": "Database Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is the main advantage of microservices?",
+    "options": [
+      "Simpler debugging",
+      "Tight coupling",
+      "Independent deployment/scalability",
+      "Reduced network latency"
+    ],
+    "answer": "Independent deployment/scalability",
+    "difficulty": "advanced",
+    "topic": "System Design"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "HTTP status code for successful POST request?",
+    "options": [],
+    "answer": "201 Created",
+    "difficulty": "beginner",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which algorithm finds shortest path in weighted graph?",
+    "options": [
+      "BFS",
+      "DFS",
+      "Dijkstra",
+      "Binary Search"
+    ],
+    "answer": "Dijkstra",
+    "difficulty": "intermediate",
+    "topic": "Algorithms"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is the CAP theorem?",
+    "options": [
+      "Consistency, Availability, Partition tolerance",
+      "Concurrency, Atomicity, Persistence",
+      "Consistency, Atomicity, Partition tolerance",
+      "Concurrency, Availability, Persistence"
+    ],
+    "answer": "Consistency, Availability, Partition tolerance",
+    "difficulty": "advanced",
+    "topic": "System Design"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What does SQL stand for?",
+    "options": [],
+    "answer": "Structured Query Language",
+    "difficulty": "beginner",
+    "topic": "Database Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which sorting algorithm has best worst-case time?",
+    "options": [
+      "QuickSort",
+      "BubbleSort",
+      "MergeSort",
+      "SelectionSort"
+    ],
+    "answer": "MergeSort",
+    "difficulty": "intermediate",
+    "topic": "Algorithms"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is deadlock?",
+    "options": [],
+    "answer": "When processes wait for resources held by each other",
+    "difficulty": "intermediate",
+    "topic": "Operating Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a JavaScript framework?",
+    "options": [
+      "React",
+      "Angular",
+      "Django",
+      "Vue.js"
+    ],
+    "answer": "Django",
+    "difficulty": "beginner",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is the main purpose of an index in databases?",
+    "options": [
+      "To store backups",
+      "To improve query performance",
+      "To enforce data types",
+      "To manage transactions"
+    ],
+    "answer": "To improve query performance",
+    "difficulty": "intermediate",
+    "topic": "Database Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What principle states entities should be open for extension but closed for modification?",
+    "options": [],
+    "answer": "Open/Closed Principle",
+    "difficulty": "advanced",
+    "topic": "Software Design"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which data structure uses LIFO order?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Heap",
+      "Tree"
+    ],
+    "answer": "Stack",
+    "difficulty": "beginner",
+    "topic": "Data Structures"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What does API stand for?",
+    "options": [
+      "Application Programming Interface",
+      "Automated Program Integration",
+      "Application Process Integration",
+      "Automated Programming Interface"
+    ],
+    "answer": "Application Programming Interface",
+    "difficulty": "beginner",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is memoization in dynamic programming?",
+    "options": [],
+    "answer": "Storing results of expensive function calls",
+    "difficulty": "intermediate",
+    "topic": "Dynamic Programming"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which algorithm is most efficient for maximum subarray sum?",
+    "options": [
+      "Brute Force (O(n²))",
+      "Kadane's Algorithm (O(n))",
+      "Divide and Conquer (O(n log n))",
+      "Dynamic Programming (O(n²))"
+    ],
+    "answer": "Kadane's Algorithm (O(n))",
+    "difficulty": "intermediate",
+    "topic": "Arrays"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "Write a function to reverse a linked list in-place.",
+    "options": [],
+    "answer": "def reverse_list(head):\n    prev = None\n    current = head\n    while current:\n        next_node = current.next\n        current.next = prev\n        prev = current\n        current = next_node\n    return prev",
+    "difficulty": "intermediate",
+    "topic": "Linked Lists"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is time complexity of Dijkstra's with binary heap?",
+    "options": [
+      "O(V²)",
+      "O(V + E)",
+      "O((V + E) log V)",
+      "O(V log V + E)"
+    ],
+    "answer": "O((V + E) log V)",
+    "difficulty": "advanced",
+    "topic": "Graphs"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Best data structure for LRU Cache?",
+    "options": [
+      "Array",
+      "Singly Linked List",
+      "Doubly Linked List + Hashmap",
+      "Binary Search Tree"
+    ],
+    "answer": "Doubly Linked List + Hashmap",
+    "difficulty": "intermediate",
+    "topic": "Design"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "How to detect cycle in linked list?",
+    "options": [],
+    "answer": "Floyd's Cycle-Finding Algorithm (tortoise and hare)",
+    "difficulty": "intermediate",
+    "topic": "Linked Lists"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Advantage of Red-Black Tree over AVL?",
+    "options": [
+      "Faster lookups",
+      "Fewer rotations during insertion/deletion",
+      "Stricter balancing",
+      "Simpler implementation"
+    ],
+    "answer": "Fewer rotations during insertion/deletion",
+    "difficulty": "advanced",
+    "topic": "Trees"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Best sorting for small datasets?",
+    "options": [
+      "Merge Sort",
+      "Quick Sort",
+      "Insertion Sort",
+      "Heap Sort"
+    ],
+    "answer": "Insertion Sort",
+    "difficulty": "beginner",
+    "topic": "Algorithms"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "Implement stack using queues.",
+    "options": [],
+    "answer": "Use two queues:\n1. Push: Add to q2, move all from q1 to q2, swap q1 and q2\n2. Pop: Remove from q1",
+    "difficulty": "intermediate",
+    "topic": "Stacks"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What does CAP theorem state?",
+    "options": [
+      "Achieve all three: C,A,P",
+      "Only achieve two of C,A,P",
+      "Prioritize C over A",
+      "P tolerance optional"
+    ],
+    "answer": "Only achieve two of C,A,P",
+    "difficulty": "advanced",
+    "topic": "System Design"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a valid ACID property?",
+    "options": [
+      "Atomicity",
+      "Consistency",
+      "Isolation",
+      "Durability",
+      "Availability"
+    ],
+    "answer": "Availability",
+    "difficulty": "intermediate",
+    "topic": "Database Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "Difference between process and thread?",
+    "options": [],
+    "answer": "Process: Independent with separate memory\nThread: Lightweight, shares memory",
+    "difficulty": "intermediate",
+    "topic": "Operating Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Time complexity of hash table search?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(1) avg, O(n) worst"
+    ],
+    "answer": "O(1) avg, O(n) worst",
+    "difficulty": "intermediate",
+    "topic": "Hashing"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "SQL query for second highest salary?",
+    "options": [],
+    "answer": "SELECT MAX(salary) FROM employees WHERE salary < (SELECT MAX(salary) FROM employees)",
+    "difficulty": "intermediate",
+    "topic": "Database Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which data structure for BFS?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Heap",
+      "Priority Queue"
+    ],
+    "answer": "Queue",
+    "difficulty": "beginner",
+    "topic": "Graphs"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is memoization?",
+    "options": [],
+    "answer": "Storing results of expensive function calls",
+    "difficulty": "intermediate",
+    "topic": "Dynamic Programming"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Bubble sort worst-case time?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n²)",
+      "O(log n)"
+    ],
+    "answer": "O(n²)",
+    "difficulty": "beginner",
+    "topic": "Algorithms"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "Explain Factory design pattern.",
+    "options": [],
+    "answer": "Creational pattern providing interface for creating objects",
+    "difficulty": "advanced",
+    "topic": "Design Patterns"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is REST?",
+    "options": [
+      "Remote Execution System Template",
+      "Representational State Transfer",
+      "Responsive Event-driven System Technology",
+      "Resource Execution State Transfer"
+    ],
+    "answer": "Representational State Transfer",
+    "difficulty": "intermediate",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is normalization in databases?",
+    "options": [],
+    "answer": "Process of organizing data to reduce redundancy",
+    "difficulty": "intermediate",
+    "topic": "Database Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a HTTP method?",
+    "options": [
+      "GET",
+      "POST",
+      "FETCH",
+      "PUT"
+    ],
+    "answer": "FETCH",
+    "difficulty": "beginner",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is Big O notation?",
+    "options": [],
+    "answer": "Mathematical notation describing algorithm efficiency",
+    "difficulty": "beginner",
+    "topic": "Algorithms"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which language is statically typed?",
+    "options": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "Ruby"
+    ],
+    "answer": "Java",
+    "difficulty": "beginner",
+    "topic": "Programming"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is recursion?",
+    "options": [],
+    "answer": "Function calling itself directly/indirectly",
+    "difficulty": "beginner",
+    "topic": "Algorithms"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is DNS?",
+    "options": [
+      "Data Naming System",
+      "Domain Name System",
+      "Digital Network Service",
+      "Distributed Node System"
+    ],
+    "answer": "Domain Name System",
+    "difficulty": "beginner",
+    "topic": "Networking"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is a constructor?",
+    "options": [],
+    "answer": "Special method to initialize objects",
+    "difficulty": "beginner",
+    "topic": "OOP"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a primitive data type?",
+    "options": [
+      "int",
+      "float",
+      "string",
+      "array"
+    ],
+    "answer": "array",
+    "difficulty": "beginner",
+    "topic": "Programming"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is garbage collection?",
+    "options": [],
+    "answer": "Automatic memory management",
+    "difficulty": "intermediate",
+    "topic": "Programming"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is TCP?",
+    "options": [
+      "Transmission Control Protocol",
+      "Total Connection Protocol",
+      "Transport Control Process",
+      "Transient Connection Pathway"
+    ],
+    "answer": "Transmission Control Protocol",
+    "difficulty": "beginner",
+    "topic": "Networking"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is polymorphism?",
+    "options": [],
+    "answer": "Ability of objects to take different forms",
+    "difficulty": "intermediate",
+    "topic": "OOP"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a cloud service model?",
+    "options": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "BaaS"
+    ],
+    "answer": "BaaS",
+    "difficulty": "intermediate",
+    "topic": "Cloud Computing"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is version control?",
+    "options": [],
+    "answer": "System for tracking code changes",
+    "difficulty": "beginner",
+    "topic": "DevOps"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is HTML?",
+    "options": [
+      "HyperText Markup Language",
+      "High-Level Machine Language",
+      "Hyper Transfer Markup Logic",
+      "Host Text Management Layer"
+    ],
+    "answer": "HyperText Markup Language",
+    "difficulty": "beginner",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is an interface?",
+    "options": [],
+    "answer": "Contract defining methods a class must implement",
+    "difficulty": "intermediate",
+    "topic": "OOP"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a NoSQL DB type?",
+    "options": [
+      "Document",
+      "Graph",
+      "Relational",
+      "Key-Value"
+    ],
+    "answer": "Relational",
+    "difficulty": "intermediate",
+    "topic": "Database Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is DevOps?",
+    "options": [],
+    "answer": "Combination of development and operations",
+    "difficulty": "beginner",
+    "topic": "DevOps"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is CSS?",
+    "options": [
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Content Styling System",
+      "Centralized Style Service"
+    ],
+    "answer": "Cascading Style Sheets",
+    "difficulty": "beginner",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is Agile methodology?",
+    "options": [],
+    "answer": "Iterative approach to project management",
+    "difficulty": "intermediate",
+    "topic": "Methodologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a sorting algorithm?",
+    "options": [
+      "QuickSort",
+      "MergeSort",
+      "JumpSort",
+      "BubbleSort"
+    ],
+    "answer": "JumpSort",
+    "difficulty": "beginner",
+    "topic": "Algorithms"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is a binary tree?",
+    "options": [],
+    "answer": "Tree with max two children per node",
+    "difficulty": "beginner",
+    "topic": "Data Structures"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is JSON?",
+    "options": [
+      "JavaScript Object Notation",
+      "Java Standard Object Naming",
+      "JavaScript Oriented Network",
+      "Java System Object Node"
+    ],
+    "answer": "JavaScript Object Notation",
+    "difficulty": "beginner",
+    "topic": "Data Formats"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is MVC?",
+    "options": [],
+    "answer": "Model-View-Controller architecture pattern",
+    "difficulty": "intermediate",
+    "topic": "Design Patterns"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a Python framework?",
+    "options": [
+      "Django",
+      "Flask",
+      "Spring",
+      "Pyramid"
+    ],
+    "answer": "Spring",
+    "difficulty": "intermediate",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is load balancing?",
+    "options": [],
+    "answer": "Distributing network traffic across servers",
+    "difficulty": "intermediate",
+    "topic": "System Design"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is XML?",
+    "options": [
+      "eXtensible Markup Language",
+      "Executable Machine Language",
+      "Extended Memory Layer",
+      "External Module Library"
+    ],
+    "answer": "eXtensible Markup Language",
+    "difficulty": "beginner",
+    "topic": "Data Formats"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is caching?",
+    "options": [],
+    "answer": "Storing data for faster future access",
+    "difficulty": "intermediate",
+    "topic": "System Design"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a JavaScript data type?",
+    "options": [
+      "string",
+      "number",
+      "character",
+      "boolean"
+    ],
+    "answer": "character",
+    "difficulty": "beginner",
+    "topic": "Programming"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is OAuth?",
+    "options": [],
+    "answer": "Authorization framework for API access",
+    "difficulty": "advanced",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is SSH?",
+    "options": [
+      "Secure Shell",
+      "System Service Host",
+      "Standard Security Hub",
+      "Server Security Handler"
+    ],
+    "answer": "Secure Shell",
+    "difficulty": "beginner",
+    "topic": "Networking"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is CI/CD?",
+    "options": [],
+    "answer": "Continuous Integration/Continuous Deployment",
+    "difficulty": "intermediate",
+    "topic": "DevOps"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which is NOT a valid HTTP status code?",
+    "options": [
+      "200",
+      "404",
+      "503",
+      "799"
+    ],
+    "answer": "799",
+    "difficulty": "intermediate",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is Docker?",
+    "options": [],
+    "answer": "Containerization platform",
+    "difficulty": "beginner",
+    "topic": "DevOps"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is a cookie in web?",
+    "options": [
+      "Small text file stored by browser",
+      "Type of database",
+      "Security token",
+      "Authentication protocol"
+    ],
+    "answer": "Small text file stored by browser",
+    "difficulty": "beginner",
+    "topic": "Web Technologies"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is machine learning?",
+    "options": [],
+    "answer": "AI technique enabling systems to learn from data",
+    "difficulty": "intermediate",
+    "topic": "AI Concepts"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is a primary key?",
+    "options": [
+      "Unique identifier for database records",
+      "Foreign key reference",
+      "Index for sorting",
+      "Encryption key"
+    ],
+    "answer": "Unique identifier for database records",
+    "difficulty": "intermediate",
+    "topic": "Database Systems"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is the difference between == and === in JavaScript?",
+    "options": [],
+    "answer": "== compares values, === compares values and types",
+    "difficulty": "intermediate",
+    "topic": "Programming"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "Which data structure uses hash functions?",
+    "options": [
+      "Array",
+      "Hash Table",
+      "Linked List",
+      "Stack"
+    ],
+    "answer": "Hash Table",
+    "difficulty": "beginner",
+    "topic": "Data Structures"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "short_answer",
+    "question": "What is a virtual machine?",
+    "options": [],
+    "answer": "Software emulation of physical computer",
+    "difficulty": "intermediate",
+    "topic": "System Design"
+  },
+  {
+    "goal": "Amazon SDE",
+    "type": "mcq",
+    "question": "What is the main purpose of Kubernetes?",
+    "options": [
+      "Version control",
+      "Container orchestration",
+      "Database management",
+      "Code compilation"
+    ],
+    "answer": "Container orchestration",
+    "difficulty": "intermediate",
+    "topic": "DevOps"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Nyquist rate for 4 kHz signal?",
+    "options": [
+      "4 kHz",
+      "2 kHz",
+      "8 kHz",
+      "6 kHz"
+    ],
+    "answer": "8 kHz",
+    "difficulty": "intermediate",
+    "topic": "Signals and Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Most bandwidth-efficient modulation?",
+    "options": [
+      "ASK",
+      "FSK",
+      "PSK",
+      "QAM"
+    ],
+    "answer": "QAM",
+    "difficulty": "advanced",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "Resolution of 10-bit ADC with 5V reference?",
+    "options": [],
+    "answer": "4.88 mV",
+    "difficulty": "intermediate",
+    "topic": "Digital Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Indian navigation satellite system?",
+    "options": [
+      "GSAT",
+      "INSAT",
+      "IRNSS",
+      "CARTOSAT"
+    ],
+    "answer": "IRNSS",
+    "difficulty": "beginner",
+    "topic": "Satellite Communication"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What does VLSI stand for?",
+    "options": [
+      "Very Large System Integration",
+      "Very Large Scale Integration",
+      "Variable Logic System Integration",
+      "Voltage Level System Interface"
+    ],
+    "answer": "Very Large Scale Integration",
+    "difficulty": "beginner",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "Output of non-inverting op-amp: R1=10kΩ, R2=10kΩ, Vin=2V?",
+    "options": [],
+    "answer": "4V",
+    "difficulty": "intermediate",
+    "topic": "Analog Circuits"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Theorem for networks with multiple sources?",
+    "options": [
+      "Thevenin's",
+      "Norton's",
+      "Superposition",
+      "Max Power Transfer"
+    ],
+    "answer": "Superposition",
+    "difficulty": "intermediate",
+    "topic": "Network Theory"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Full form of OFDM?",
+    "options": [
+      "Orthogonal Frequency Division Multiplexing",
+      "Optical Frequency Division Modulation",
+      "Orthogonal Function Division Method",
+      "Optimized Frequency Division Multiplexing"
+    ],
+    "answer": "Orthogonal Frequency Division Multiplexing",
+    "difficulty": "advanced",
+    "topic": "Wireless Communication"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "RFID operating frequency ranges?",
+    "options": [],
+    "answer": "120-150 kHz, 13.56 MHz, 860-960 MHz, 2.45 GHz",
+    "difficulty": "advanced",
+    "topic": "RF Engineering"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Modulation technique in Bluetooth?",
+    "options": [
+      "GFSK",
+      "QPSK",
+      "OFDM",
+      "BPSK"
+    ],
+    "answer": "GFSK",
+    "difficulty": "intermediate",
+    "topic": "Wireless Communication"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is digital modulation?",
+    "options": [
+      "PAM",
+      "PWM",
+      "PPM",
+      "PCM"
+    ],
+    "answer": "PCM",
+    "difficulty": "intermediate",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "Barkhausen criterion for oscillation?",
+    "options": [],
+    "answer": "Loop gain = 1, phase shift = 0°",
+    "difficulty": "advanced",
+    "topic": "Analog Circuits"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Device that converts light to electrical?",
+    "options": [
+      "LED",
+      "Photodiode",
+      "Solar Cell",
+      "Laser Diode"
+    ],
+    "answer": "Photodiode",
+    "difficulty": "beginner",
+    "topic": "Optoelectronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Full form of DSP?",
+    "options": [
+      "Digital Signal Processor",
+      "Data Stream Protocol",
+      "Digital System Programming",
+      "Data Signal Processing"
+    ],
+    "answer": "Digital Signal Processor",
+    "difficulty": "beginner",
+    "topic": "Signal Processing"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "Cut-in voltage for silicon diode?",
+    "options": [],
+    "answer": "0.7V",
+    "difficulty": "beginner",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Modulation in Wi-Fi 802.11a/g?",
+    "options": [
+      "OFDM",
+      "DSSS",
+      "FHSS",
+      "QPSK"
+    ],
+    "answer": "OFDM",
+    "difficulty": "intermediate",
+    "topic": "Wireless Communication"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What does CMOS stand for?",
+    "options": [
+      "Complementary Metal Oxide Semiconductor",
+      "Current Mode Output System",
+      "Capacitive Memory Operating System",
+      "Complementary Memory Output Semiconductor"
+    ],
+    "answer": "Complementary Metal Oxide Semiconductor",
+    "difficulty": "beginner",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "Shannon theorem relates what?",
+    "options": [],
+    "answer": "Bandwidth and transmission rate",
+    "difficulty": "advanced",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is NOT a flip-flop type?",
+    "options": [
+      "SR",
+      "JK",
+      "T",
+      "Z"
+    ],
+    "answer": "Z",
+    "difficulty": "beginner",
+    "topic": "Digital Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Full form of SNR?",
+    "options": [
+      "Signal to Noise Ratio",
+      "System Network Reliability",
+      "Serial Number Register",
+      "Synchronous Network Router"
+    ],
+    "answer": "Signal to Noise Ratio",
+    "difficulty": "beginner",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is Hartley oscillator used for?",
+    "options": [],
+    "answer": "RF signal generation",
+    "difficulty": "intermediate",
+    "topic": "Analog Circuits"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which modulation has constant envelope?",
+    "options": [
+      "ASK",
+      "FSK",
+      "PSK",
+      "QAM"
+    ],
+    "answer": "FSK",
+    "difficulty": "intermediate",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What is the full form of PLL?",
+    "options": [
+      "Phase Locked Loop",
+      "Power Level Limiter",
+      "Pulse Length Limiter",
+      "Programmable Logic Latch"
+    ],
+    "answer": "Phase Locked Loop",
+    "difficulty": "beginner",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "Advantage of digital over analog communication?",
+    "options": [],
+    "answer": "Noise immunity",
+    "difficulty": "intermediate",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is a vector quantity?",
+    "options": [
+      "Charge",
+      "Current",
+      "Voltage",
+      "Electric Field"
+    ],
+    "answer": "Electric Field",
+    "difficulty": "beginner",
+    "topic": "Electromagnetics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What does MUX stand for?",
+    "options": [
+      "Multiplexer",
+      "Multi-User Expansion",
+      "Multiplier Unit Extension",
+      "Multivariable UX"
+    ],
+    "answer": "Multiplexer",
+    "difficulty": "beginner",
+    "topic": "Digital Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "Why silicon preferred over germanium?",
+    "options": [],
+    "answer": "Higher temperature tolerance, lower leakage",
+    "difficulty": "intermediate",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which theorem relates input/output spectra?",
+    "options": [
+      "Nyquist",
+      "Shannon",
+      "Parseval",
+      "Fourier"
+    ],
+    "answer": "Fourier",
+    "difficulty": "intermediate",
+    "topic": "Signals and Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Full form of FIR filter?",
+    "options": [
+      "Finite Impulse Response",
+      "Fast Integrated Receiver",
+      "Frequency Interference Rejection",
+      "Feedback Input Resistance"
+    ],
+    "answer": "Finite Impulse Response",
+    "difficulty": "intermediate",
+    "topic": "Signal Processing"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is skin effect?",
+    "options": [],
+    "answer": "AC current concentrated near conductor surface",
+    "difficulty": "intermediate",
+    "topic": "RF Engineering"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What is full form of ADC?",
+    "options": [
+      "Analog to Digital Converter",
+      "Advanced Digital Circuit",
+      "Audio Data Converter",
+      "Analog Device Controller"
+    ],
+    "answer": "Analog to Digital Converter",
+    "difficulty": "beginner",
+    "topic": "Digital Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is Nyquist-Shannon sampling theorem?",
+    "options": [],
+    "answer": "Sampling rate must be > 2x highest frequency",
+    "difficulty": "intermediate",
+    "topic": "Signals and Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is NOT a modulation index?",
+    "options": [
+      "Amplitude",
+      "Frequency",
+      "Phase",
+      "Voltage"
+    ],
+    "answer": "Voltage",
+    "difficulty": "beginner",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is quantization error?",
+    "options": [],
+    "answer": "Difference between actual and quantized value",
+    "difficulty": "intermediate",
+    "topic": "Digital Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What does RAM stand for?",
+    "options": [
+      "Random Access Memory",
+      "Readily Available Memory",
+      "Random Addressable Memory",
+      "Rapid Access Module"
+    ],
+    "answer": "Random Access Memory",
+    "difficulty": "beginner",
+    "topic": "Digital Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is Zener diode used for?",
+    "options": [],
+    "answer": "Voltage regulation",
+    "difficulty": "intermediate",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is NOT an antenna type?",
+    "options": [
+      "Dipole",
+      "Loop",
+      "Yagi-Uda",
+      "Zener"
+    ],
+    "answer": "Zener",
+    "difficulty": "beginner",
+    "topic": "Antennas"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is modulation?",
+    "options": [],
+    "answer": "Process of varying carrier signal properties",
+    "difficulty": "beginner",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What is full form of IC?",
+    "options": [
+      "Integrated Circuit",
+      "Internal Connection",
+      "Input Channel",
+      "Inductive Coupling"
+    ],
+    "answer": "Integrated Circuit",
+    "difficulty": "beginner",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is Doppler effect?",
+    "options": [],
+    "answer": "Frequency change due to relative motion",
+    "difficulty": "intermediate",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is NOT a logic gate?",
+    "options": [
+      "AND",
+      "OR",
+      "XOR",
+      "AMP"
+    ],
+    "answer": "AMP",
+    "difficulty": "beginner",
+    "topic": "Digital Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is feedback in control systems?",
+    "options": [],
+    "answer": "Output signal fed back to input",
+    "difficulty": "intermediate",
+    "topic": "Control Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What is full form of LED?",
+    "options": [
+      "Light Emitting Diode",
+      "Low Energy Device",
+      "Luminous Emitting Device",
+      "Light Enhancement Diode"
+    ],
+    "answer": "Light Emitting Diode",
+    "difficulty": "beginner",
+    "topic": "Optoelectronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is AM demodulation?",
+    "options": [],
+    "answer": "Extracting original signal from modulated carrier",
+    "difficulty": "intermediate",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is NOT a filter type?",
+    "options": [
+      "Low-pass",
+      "High-pass",
+      "Band-pass",
+      "Signal-pass"
+    ],
+    "answer": "Signal-pass",
+    "difficulty": "beginner",
+    "topic": "Signal Processing"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is impedance?",
+    "options": [],
+    "answer": "Total opposition to AC current",
+    "difficulty": "beginner",
+    "topic": "Network Theory"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What is full form of FM?",
+    "options": [
+      "Frequency Modulation",
+      "Field Magnitude",
+      "Frequency Magnification",
+      "Field Modulation"
+    ],
+    "answer": "Frequency Modulation",
+    "difficulty": "beginner",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is Barkhausen criterion?",
+    "options": [],
+    "answer": "Conditions for oscillation",
+    "difficulty": "intermediate",
+    "topic": "Analog Circuits"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is NOT a transmission line?",
+    "options": [
+      "Coaxial",
+      "Twisted Pair",
+      "Optical Fiber",
+      "Capacitor"
+    ],
+    "answer": "Capacitor",
+    "difficulty": "beginner",
+    "topic": "Electromagnetics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is group delay?",
+    "options": [],
+    "answer": "Time delay of amplitude envelopes",
+    "difficulty": "advanced",
+    "topic": "Signals and Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What is full form of PCB?",
+    "options": [
+      "Printed Circuit Board",
+      "Power Control Board",
+      "Process Control Block",
+      "Programmable Circuit Board"
+    ],
+    "answer": "Printed Circuit Board",
+    "difficulty": "beginner",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is aliasing?",
+    "options": [],
+    "answer": "Signal distortion from insufficient sampling",
+    "difficulty": "intermediate",
+    "topic": "Signals and Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is NOT a satellite orbit?",
+    "options": [
+      "GEO",
+      "LEO",
+      "MEO",
+      "SEO"
+    ],
+    "answer": "SEO",
+    "difficulty": "beginner",
+    "topic": "Satellite Communication"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is noise figure?",
+    "options": [],
+    "answer": "Measure of degradation in SNR",
+    "difficulty": "advanced",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What is full form of RADAR?",
+    "options": [
+      "Radio Detection and Ranging",
+      "Radiation Detection and Ranging",
+      "Radio Angular Detection",
+      "Radar Angular Detection"
+    ],
+    "answer": "Radio Detection and Ranging",
+    "difficulty": "beginner",
+    "topic": "RF Engineering"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is sampling theorem?",
+    "options": [],
+    "answer": "Minimum sampling rate for signal reconstruction",
+    "difficulty": "intermediate",
+    "topic": "Signals and Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is NOT an amplifier class?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "Z"
+    ],
+    "answer": "Z",
+    "difficulty": "beginner",
+    "topic": "Analog Circuits"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is Poynting vector?",
+    "options": [],
+    "answer": "Direction of EM wave propagation",
+    "difficulty": "advanced",
+    "topic": "Electromagnetics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What is the unit of frequency?",
+    "options": [
+      "Hertz",
+      "Ohm",
+      "Farad",
+      "Tesla"
+    ],
+    "answer": "Hertz",
+    "difficulty": "beginner",
+    "topic": "Signals and Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is a transistor?",
+    "options": [],
+    "answer": "Semiconductor device for amplification/switching",
+    "difficulty": "beginner",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is NOT a wireless standard?",
+    "options": [
+      "Bluetooth",
+      "Wi-Fi",
+      "Ethernet",
+      "Zigbee"
+    ],
+    "answer": "Ethernet",
+    "difficulty": "beginner",
+    "topic": "Wireless Communication"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is an integrated circuit?",
+    "options": [],
+    "answer": "Miniaturized electronic circuit",
+    "difficulty": "beginner",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "What is the speed of light?",
+    "options": [
+      "3e8 m/s",
+      "3e5 m/s",
+      "3e3 m/s",
+      "3e10 m/s"
+    ],
+    "answer": "3e8 m/s",
+    "difficulty": "beginner",
+    "topic": "Electromagnetics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is modulation index?",
+    "options": [],
+    "answer": "Ratio of modulation amplitude to carrier amplitude",
+    "difficulty": "intermediate",
+    "topic": "Communication Systems"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "mcq",
+    "question": "Which is NOT a number system?",
+    "options": [
+      "Binary",
+      "Decimal",
+      "Hexadecimal",
+      "Vector"
+    ],
+    "answer": "Vector",
+    "difficulty": "beginner",
+    "topic": "Digital Electronics"
+  },
+  {
+    "goal": "GATE ECE",
+    "type": "short_answer",
+    "question": "What is a microcontroller?",
+    "options": [],
+    "answer": "Small computer on single IC",
+    "difficulty": "intermediate",
+    "topic": "Electronics"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Synonym of 'Sagacious'?",
+    "options": [
+      "Foolish",
+      "Wise",
+      "Arrogant",
+      "Wealthy"
+    ],
+    "answer": "Wise",
+    "difficulty": "beginner",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Correct: 'Neither manager nor assistant were present'",
+    "options": [],
+    "answer": "were → was",
+    "difficulty": "intermediate",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Meaning of 'Burn the midnight oil'?",
+    "options": [
+      "Destroy evidence",
+      "Work late into night",
+      "Waste resources",
+      "Create trouble"
+    ],
+    "answer": "Work late into night",
+    "difficulty": "beginner",
+    "topic": "Idioms"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Antonym of 'Ephemeral'?",
+    "options": [
+      "Transient",
+      "Permanent",
+      "Fleeting",
+      "Momentary"
+    ],
+    "answer": "Permanent",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Literary device: 'The wind whispered'?",
+    "options": [],
+    "answer": "Personification",
+    "difficulty": "intermediate",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Correctly spelled?",
+    "options": [
+      "Accomodate",
+      "Acommodate",
+      "Accommodate",
+      "Acomodate"
+    ],
+    "answer": "Accommodate",
+    "difficulty": "beginner",
+    "topic": "Spelling"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is a complex sentence?",
+    "options": [
+      "She studied hard.",
+      "Although it rained, they played.",
+      "The cat sat.",
+      "Run!"
+    ],
+    "answer": "Although it rained, they played.",
+    "difficulty": "intermediate",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Analogy type: Doctor:Hospital::Teacher:School?",
+    "options": [],
+    "answer": "Worker and Workplace",
+    "difficulty": "advanced",
+    "topic": "Verbal Reasoning"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Figure of speech: 'He is as brave as a lion'?",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Hyperbole",
+      "Irony"
+    ],
+    "answer": "Simile",
+    "difficulty": "beginner",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Meaning of 'Bona fide'?",
+    "options": [
+      "False",
+      "Genuine",
+      "Excellent",
+      "Ordinary"
+    ],
+    "answer": "Genuine",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Correct: 'Each of the boys have books'",
+    "options": [],
+    "answer": "have → has",
+    "difficulty": "intermediate",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which NOT a conditional sentence type?",
+    "options": [
+      "Zero",
+      "First",
+      "Second",
+      "Inverse"
+    ],
+    "answer": "Inverse",
+    "difficulty": "advanced",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Meaning of 'Sui generis'?",
+    "options": [
+      "Common",
+      "Unique",
+      "Similar",
+      "Ordinary"
+    ],
+    "answer": "Unique",
+    "difficulty": "advanced",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Punctuation for direct speech?",
+    "options": [
+      "Comma",
+      "Semicolon",
+      "Quotation marks",
+      "Colon"
+    ],
+    "answer": "Quotation marks",
+    "difficulty": "beginner",
+    "topic": "Punctuation"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Error: 'I seen that movie'?",
+    "options": [],
+    "answer": "Incorrect verb form (seen → saw)",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "What is an oxymoron?",
+    "options": [
+      "Exaggeration",
+      "Contradictory terms",
+      "Comparison",
+      "Addressing absent"
+    ],
+    "answer": "Contradictory terms",
+    "difficulty": "intermediate",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Plural of 'criterion'?",
+    "options": [
+      "Criterions",
+      "Criteria",
+      "Criterias",
+      "Criterion"
+    ],
+    "answer": "Criteria",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "What is a dangling modifier?",
+    "options": [],
+    "answer": "Modifier with unclear subject",
+    "difficulty": "intermediate",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Synonym of 'Ubiquitous'?",
+    "options": [
+      "Rare",
+      "Everywhere",
+      "Partial",
+      "Hidden"
+    ],
+    "answer": "Everywhere",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is a run-on sentence?",
+    "options": [
+      "I went; he stayed.",
+      "I went he stayed.",
+      "Although I went.",
+      "Quickly!"
+    ],
+    "answer": "I went he stayed.",
+    "difficulty": "intermediate",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Meaning of 'De facto'?",
+    "options": [],
+    "answer": "In practice (though not official)",
+    "difficulty": "advanced",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Antonym of 'Benevolent'?",
+    "options": [
+      "Kind",
+      "Malevolent",
+      "Generous",
+      "Helpful"
+    ],
+    "answer": "Malevolent",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "What is metonymy?",
+    "options": [
+      "Part represents whole",
+      "Exaggeration",
+      "Contradiction",
+      "Sound imitation"
+    ],
+    "answer": "Part represents whole",
+    "difficulty": "intermediate",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Correct: 'Me and him went to town'",
+    "options": [],
+    "answer": "Me and him → He and I",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Meaning of 'Fait accompli'?",
+    "options": [
+      "Unfinished task",
+      "Accomplished fact",
+      "False information",
+      "Temporary solution"
+    ],
+    "answer": "Accomplished fact",
+    "difficulty": "advanced",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is a compound sentence?",
+    "options": [
+      "She ran.",
+      "He slept.",
+      "She ran, and he slept.",
+      "Running fast."
+    ],
+    "answer": "She ran, and he slept.",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "What is zeugma?",
+    "options": [],
+    "answer": "One word modifying two others differently",
+    "difficulty": "advanced",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Synonym of 'Meticulous'?",
+    "options": [
+      "Careless",
+      "Careful",
+      "Rude",
+      "Generous"
+    ],
+    "answer": "Careful",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Correct: 'The team are winning'",
+    "options": [],
+    "answer": "are → is",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is NOT a figure of speech?",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Equation",
+      "Hyperbole"
+    ],
+    "answer": "Equation",
+    "difficulty": "beginner",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Meaning of 'Status quo'?",
+    "options": [],
+    "answer": "Existing state of affairs",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Antonym of 'Candid'?",
+    "options": [
+      "Frank",
+      "Dishonest",
+      "Open",
+      "Truthful"
+    ],
+    "answer": "Dishonest",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "What is alliteration?",
+    "options": [],
+    "answer": "Repetition of initial consonant sounds",
+    "difficulty": "beginner",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is a preposition?",
+    "options": [
+      "Run",
+      "Quickly",
+      "Under",
+      "Beautiful"
+    ],
+    "answer": "Under",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Meaning of 'Ad hoc'?",
+    "options": [],
+    "answer": "For specific purpose",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Synonym of 'Pragmatic'?",
+    "options": [
+      "Idealistic",
+      "Practical",
+      "Theoretical",
+      "Dreamy"
+    ],
+    "answer": "Practical",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Correct: 'Its a beautiful day'",
+    "options": [],
+    "answer": "Its → It's",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is NOT a verb tense?",
+    "options": [
+      "Past",
+      "Present",
+      "Future",
+      "Spatial"
+    ],
+    "answer": "Spatial",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "What is irony?",
+    "options": [],
+    "answer": "Contrast between expectation and reality",
+    "difficulty": "intermediate",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Meaning of 'Per se'?",
+    "options": [
+      "By itself",
+      "Through others",
+      "Against all",
+      "Above all"
+    ],
+    "answer": "By itself",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Correct: 'Between you and I'",
+    "options": [],
+    "answer": "I → me",
+    "difficulty": "intermediate",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Antonym of 'Lethargic'?",
+    "options": [
+      "Tired",
+      "Energetic",
+      "Sleepy",
+      "Lazy"
+    ],
+    "answer": "Energetic",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "What is assonance?",
+    "options": [],
+    "answer": "Repetition of vowel sounds",
+    "difficulty": "intermediate",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is a conjunction?",
+    "options": [
+      "Run",
+      "And",
+      "Beautiful",
+      "Quickly"
+    ],
+    "answer": "And",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Meaning of 'Caveat emptor'?",
+    "options": [],
+    "answer": "Buyer beware",
+    "difficulty": "advanced",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Synonym of 'Eloquent'?",
+    "options": [
+      "Inarticulate",
+      "Fluent",
+      "Mute",
+      "Silent"
+    ],
+    "answer": "Fluent",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Correct: 'She done her homework'",
+    "options": [],
+    "answer": "done → did",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is NOT a pronoun?",
+    "options": [
+      "He",
+      "She",
+      "It",
+      "Jump"
+    ],
+    "answer": "Jump",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "What is onomatopoeia?",
+    "options": [],
+    "answer": "Words imitating sounds",
+    "difficulty": "beginner",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Meaning of 'Quid pro quo'?",
+    "options": [
+      "Something for nothing",
+      "Something for something",
+      "Against something",
+      "Above something"
+    ],
+    "answer": "Something for something",
+    "difficulty": "advanced",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Correct: 'The data is' or 'The data are'?",
+    "options": [],
+    "answer": "Both acceptable (singular/plural)",
+    "difficulty": "advanced",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Antonym of 'Amiable'?",
+    "options": [
+      "Friendly",
+      "Hostile",
+      "Kind",
+      "Pleasant"
+    ],
+    "answer": "Hostile",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "What is a malapropism?",
+    "options": [],
+    "answer": "Incorrect word substitution with similar sound",
+    "difficulty": "intermediate",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is an adverb?",
+    "options": [
+      "Run",
+      "Beautiful",
+      "Quickly",
+      "Car"
+    ],
+    "answer": "Quickly",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Meaning of 'Prima facie'?",
+    "options": [],
+    "answer": "At first sight",
+    "difficulty": "advanced",
+    "topic": "Vocabulary"
+  },
+ {
+  "goal": "CAT Verbal",
+  "type": "mcq",
+  "question": "Synonym of 'Verbose'?",
+  "options": [
+    "Concise",
+    "Wordy",
+    "Brief",
+    "Succinct"
+  ],
+  "answer": "Wordy",
+  "difficulty": "intermediate",  
+  "topic": "Vocabulary"
+},
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Correct: 'Whom should I ask?'",
+    "options": [],
+    "answer": "Correct as is",
+    "difficulty": "intermediate",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is NOT a type of irony?",
+    "options": [
+      "Verbal",
+      "Situational",
+      "Dramatic",
+      "Literal"
+    ],
+    "answer": "Literal",
+    "difficulty": "intermediate",
+    "topic": "Literary Devices"
+  },
+  {
+  "goal": "CAT Verbal",  
+  "type": "short_answer",
+  "question": "Meaning of 'Ipso facto'?",
+  "options": [],
+  "answer": "By the fact itself",
+  "difficulty": "advanced",
+  "topic": "Vocabulary"
+},
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Antonym of 'Profound'?",
+    "options": [
+      "Deep",
+      "Shallow",
+      "Serious",
+      "Intense"
+    ],
+    "answer": "Shallow",
+    "difficulty": "intermediate",
+    "topic": "Vocabulary"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "What is a synecdoche?",
+    "options": [],
+    "answer": "Part representing whole",
+    "difficulty": "intermediate",
+    "topic": "Literary Devices"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "mcq",
+    "question": "Which is a proper noun?",
+    "options": [
+      "city",
+      "London",
+      "book",
+      "run"
+    ],
+    "answer": "London",
+    "difficulty": "beginner",
+    "topic": "Grammar"
+  },
+  {
+    "goal": "CAT Verbal",
+    "type": "short_answer",
+    "question": "Meaning of 'Ad infinitum'?",
+    "options": [],
+    "answer": "To infinity",
+    "difficulty": "advanced",
+    "topic": "Vocabulary"
+  }
+]
